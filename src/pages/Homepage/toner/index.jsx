@@ -2,7 +2,7 @@ import React from "react";
 import "./index.scss";
 const Toner = () => {
   return (
-    <div>
+    <div id="toner">
       <div className="container">
         <div className="toner">
           <h1>

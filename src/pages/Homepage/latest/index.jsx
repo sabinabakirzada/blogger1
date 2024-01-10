@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import {  Pagination, Autoplay } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -22,6 +22,7 @@ const Latest = () => {
       </div>
       <div>
         <Swiper
+          spaceBetween={100}
           slidesPerView={3}
           loop={true}
           modules={[Pagination, Autoplay]}
